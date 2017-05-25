@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Markdown语法学习]]></title>
+    <url>%2F2017%2F05%2F25%2FMarkdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%2F</url>
+    <content type="text"><![CDATA[标题1234# 一级标题(注意#和文字之间的空格）## 二级标题### 三级标题依此类推... 代码1231.反引号`之间插入代码2.三个反引号之间插入代码3.在code标签之间插入代码&lt;code&gt;&lt;/code&gt; 引用 这是一段引用markdown语法如下 12&gt; 这是一段引用&gt; markdown语法如下 链接超链接Google12[Google](www.google.com)&lt;a href=&quot;www.google.com&quot;&gt;Google&lt;/a&gt; markdown可以直接嵌入HTML标签,所以可以直接用HTML来写markdown。 图片链接12![图片](图片地址)&lt;img src=&quot;&quot;&gt; 列表无序列表 列表一 列表二 列表三 12345678910111213141516（注意-和文字之间的空格，下同）- 列表一- 列表二- 列表三或+ 列表一+ 列表一+ 列表二或* 列表二* 列表三* 列表三 有序列表 列表一 列表二 列表三 1231. 列表一2. 列表二3. 列表三 表格 表项1 表项2 表项3 1 2 3 4 5 6 7 8 9 12345表项1|表项2|表项3--:|:--:|:--1 | 2| 34 | 5| 67 | 8| 9 第二行的冒号用来表示对齐方式，冒号在左边表示靠左显示，两边都有冒号表示居中对齐 格式粗体和斜体粗体斜体粗斜体123**粗体***斜体****粗斜体*** 参考Markdown 语法说明 (简体中文版)]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[First]]></title>
     <url>%2F2017%2F05%2F17%2FFirst%2F</url>
     <content type="text"><![CDATA[开篇]]></content>
