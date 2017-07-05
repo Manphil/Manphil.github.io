@@ -3,6 +3,58 @@
 
 
     
+  <url>
+    <loc>https://manphil.github.io/2017/07/05/SSM%E6%A1%86%E6%9E%B6-%E4%BD%BF%E7%94%A8MyBatis-Generator%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E4%BB%A3%E7%A0%81/</loc>
+    <lastmod>2017-07-05T10:42:30.593Z</lastmod>
+    <data>
+        <display>
+        <title>SSM框架-使用MyBatis Generator自动生成代码</title>
+        <pubTime>2017-07-05T10:10:01.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>MyBatis Generator</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://manphil.github.io/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://manphil.github.io/2017/07/05/SSM%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2017-07-05T10:00:38.838Z</lastmod>
+    <data>
+        <display>
+        <title>SSM框架搭建</title>
+        <pubTime>2017-07-05T09:56:29.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>SpringMVC</tag>
+         
+        <tag>Spring</tag>
+         
+        <tag>Mybatis</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://manphil.github.io/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -22,21 +74,6 @@
              
               <breadCrumb title="Markdown" url="https://manphil.github.io/categories/Markdown/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://manphil.github.io/2017/05/17/First/</loc>
-    <lastmod>2017-05-17T08:06:53.896Z</lastmod>
-    <data>
-        <display>
-        <title>First</title>
-        <pubTime>2017-05-17T08:06:34.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
