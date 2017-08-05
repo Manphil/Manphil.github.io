@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[收藏夹]]></title>
     <url>%2F2017%2F07%2F06%2F%E6%94%B6%E8%97%8F%E6%8E%A7%2F</url>
-    <content type="text"><![CDATA[主要是一些平时收藏的网页，工具 编辑器Markdown Editor.md富文本 bootstrap-wysiwyg : 嵌入简单 wangEditor UEditor]]></content>
+    <content type="text"><![CDATA[主要是一些平时收藏的网页，工具 编辑器Markdown Editor.md 富文本 bootstrap-wysiwyg : 嵌入简单 wangEditor UEditor JavaScript相关插件 SweetAlert : 一个美化的JS弹框，不依赖于JQuery distpicker : 一个jQuery的省市区三级联动的地址选择器]]></content>
       <categories>
         <category>collection</category>
       </categories>
@@ -34,10 +34,10 @@
       </categories>
       <tags>
         <tag>Java</tag>
-        <tag>SSM</tag>
         <tag>SpringMVC</tag>
         <tag>Spring</tag>
         <tag>Mybatis</tag>
+        <tag>SSM</tag>
       </tags>
   </entry>
   <entry>
