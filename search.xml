@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[笔试总结]]></title>
+    <url>%2F2017%2F09%2F07%2F%E7%AC%94%E8%AF%95%E6%80%BB%E7%BB%93%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[面试总结]]></title>
+    <url>%2F2017%2F09%2F07%2F%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[2017-9-7 华为面试技术相关 系统的模块化划分？ 把一个系统分解小模块？如何分解。 如何更清晰地描述好自己写的算法？ 非技术类问题 当有多个工作需要同时进行时，怎么规划自己的时间? 应该需要从多个方面去回答，分多种情况，比如当。。。时候，应该以。。。为重。 你觉得自己的自学能力如何？从那些方面可以体现出来，举个例子。 你还有什么问题想问的吗？ 这个一定要问，就算不知道该问什么，也要能扯出一些什么问题来。。但是要避免涉及到面试官的隐私之类的问题。]]></content>
+      <categories>
+        <category>胡说八道</category>
+      </categories>
+      <tags>
+        <tag>招聘</tag>
+        <tag>面试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[收藏夹]]></title>
     <url>%2F2017%2F07%2F06%2F%E6%94%B6%E8%97%8F%E6%8E%A7%2F</url>
     <content type="text"><![CDATA[主要是一些平时收藏的网页，工具 编辑器Markdown Editor.md 富文本 bootstrap-wysiwyg : 嵌入简单 wangEditor UEditor JavaScript相关插件 SweetAlert : 一个美化的JS弹框，不依赖于JQuery distpicker : 一个jQuery的省市区三级联动的地址选择器]]></content>
@@ -34,10 +51,10 @@
       </categories>
       <tags>
         <tag>Java</tag>
+        <tag>SSM</tag>
         <tag>SpringMVC</tag>
         <tag>Spring</tag>
         <tag>Mybatis</tag>
-        <tag>SSM</tag>
       </tags>
   </entry>
   <entry>
