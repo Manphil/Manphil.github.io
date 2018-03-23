@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[scala函数定义]]></title>
+    <url>%2F2018%2F03%2F23%2Fscala%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%2F</url>
+    <content type="text"><![CDATA[总结了一下Scala中常见的几种函数定义方式 最原始的方式 123def add(a:Int, b:Int):Int = &#123; return a+b&#125; 进一步简化，首先Scala中不推荐使用return（默认返回最后一个表达式的值)，而且Scala可以省略返回值的类型。 简化的定义方式 1def add(a:Int, b:Int) = a + b 使用Lambda表达式定义 123val add : (Int, Int) =&gt; Int = (a, b) =&gt; a + b或val add = (a:Int, b:Int) =&gt; a + b 单参数1val fun:Int=&gt;String = p =&gt; &quot;The value of p is &quot; + p.toString() Note:定义函数时，如果没有写返回值类型，函数体前的“=”可以省略，如果显示声明了返回值类型，就必须要有“=”,eg.123456789//没有写返回值类型，省略等号def fun() &#123; println(&quot;Hello World~&quot;)&#125;//有返回值类型，等号必须写def fun():String = &#123; &quot;Hello&quot; + &quot;~World~&quot;&#125;]]></content>
+      <categories>
+        <category>Scala</category>
+      </categories>
+      <tags>
+        <tag>Scala</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Redis的使用]]></title>
+    <url>%2F2017%2F10%2F02%2FRedis%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[启动（Windows下） 在Resid目录下打开终端，输入redis-server.exe redis.windows.conf命令即可开启Redis 打开一个新的终端，输入redis-cli.exe进入Redis的命令交互界面 出现Creating Server TCP listening socket 127.0.0.1:6379: bind: No error错误说明Redis已经启动，直接输入redis-cli.exe进行使用，或按以下步骤解决： redis-cli.exe shutdown exit redis-server.exe redis.windows.conf]]></content>
+      <categories>
+        <category>Redis</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
+        <tag>NoSql</tag>
+        <tag>Redis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[笔试总结]]></title>
     <url>%2F2017%2F09%2F07%2F%E7%AC%94%E8%AF%95%E6%80%BB%E7%BB%93%2F</url>
     <content type="text"></content>
