@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Deepin安装常用工具命令]]></title>
+    <url>%2F2018%2F03%2F26%2FDeepin%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[安装gcc g++1sudo apt-get gcc g++ build-essential 安装Java 为了使Deepin能够使用ppa源，需要先安装以下依赖 123sudo apt-get install python-software-propertiessudo apt-get install software-properties-commonsudo apt-get update 现在可以使用add-apt-repository命令添加ppa源了 12sudo add-apt-repository ppa:webupd8team/java sudo apt-get update 最后使用以下命令即可安装Java 12sudo apt-get install oracle-java9-installersudo update-java-alternatives -s java-9-oracle //这条命令是设置Java9为默认Java版本 安装git 下载Git 1sudo apt-get install git 设置用户名和邮箱 12git config --global user.name &quot;用户名&quot;git config --global user.email &quot;邮箱&quot; 生成key 12ssh-keygen -t rsa// 按三次回车默认即可 把/home/username/.ssh下的id_rsa.pub中的内容复制进Github即可 安装nodejs以及npm12sudo apt-get install nodejssudo apt-get install npm]]></content>
+      <categories>
+        <category>Deepin</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[scala函数定义]]></title>
     <url>%2F2018%2F03%2F23%2Fscala%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%2F</url>
     <content type="text"><![CDATA[总结了一下Scala中常见的几种函数定义方式 最原始的方式 123def add(a:Int, b:Int):Int = &#123; return a+b&#125; 进一步简化，首先Scala中不推荐使用return（默认返回最后一个表达式的值)，而且Scala可以省略返回值的类型。 简化的定义方式 1def add(a:Int, b:Int) = a + b 使用Lambda表达式定义 123val add : (Int, Int) =&gt; Int = (a, b) =&gt; a + b或val add = (a:Int, b:Int) =&gt; a + b 单参数1val fun:Int=&gt;String = p =&gt; &quot;The value of p is &quot; + p.toString() Note:定义函数时，如果没有写返回值类型，函数体前的“=”可以省略，如果显示声明了返回值类型，就必须要有“=”,eg.123456789//没有写返回值类型，省略等号def fun() &#123; println(&quot;Hello World~&quot;)&#125;//有返回值类型，等号必须写def fun():String = &#123; &quot;Hello&quot; + &quot;~World~&quot;&#125;]]></content>
