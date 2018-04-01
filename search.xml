@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[使用Intellij编译Spark源码]]></title>
+    <url>%2F2018%2F04%2F01%2F%E4%BD%BF%E7%94%A8Intellij%E7%BC%96%E8%AF%91Spark%E6%BA%90%E7%A0%81%2F</url>
+    <content type="text"><![CDATA[记录一下Intellij编译Spark的过程 使用Git从Github clone Spark源码 1git clone https://github.com/apache/spark.git 把Spark导入到Intellij中 File -&gt; New -&gt; Projects From Existing Sources -&gt; 选择clone的spark -&gt; Maven Project -&gt;…(接下来的操作使用默认即可) Building Spark 使用Intellij自带的maven进行编译： View -&gt; Tool Windows -&gt; Maven Projects 在打开的Maven面板中点击Execute Maven Goal小按钮，输入以下其中一个命令之一即可： 12345671、mvn clean package -Dmaven.test.skip=true2、mvn clean install -Dmaven.test.skip=true（发布到maven本地仓库中）3、mvn -DskipTests clean package4、mvn -DskipTests clean install (发布到maven本地仓库中) 可能是因为墙的原因，使用官方的 ./build/mvn -DskipTests clean package 命令一直都显示已连接，然后就没了==，不过使用sbt可以编译成功，在终端输入 ./build/sbt package 即可（需要梯子） 其他更多的编译命令可参考Spark官方文档Building Spark - Spark 2.3.0 Documentation 参考： https://spark.apache.org/docs/latest/building-spark.html https://blog.csdn.net/high2011/article/details/76651290]]></content>
+      <categories>
+        <category>Spark</category>
+      </categories>
+      <tags>
+        <tag>大数据</tag>
+        <tag>Spark</tag>
+        <tag>Intellij</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Deepin安装常用工具命令]]></title>
     <url>%2F2018%2F03%2F26%2FDeepin%E5%AE%89%E8%A3%85%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[安装gcc g++1sudo apt-get gcc g++ build-essential 安装Java 为了使Deepin能够使用ppa源，需要先安装以下依赖 123sudo apt-get install python-software-propertiessudo apt-get install software-properties-commonsudo apt-get update 现在可以使用add-apt-repository命令添加ppa源了 12sudo add-apt-repository ppa:webupd8team/java sudo apt-get update 最后使用以下命令即可安装Java 12sudo apt-get install oracle-java9-installersudo update-java-alternatives -s java-9-oracle //这条命令是设置Java9为默认Java版本 安装git 下载Git 1sudo apt-get install git 设置用户名和邮箱 12git config --global user.name &quot;用户名&quot;git config --global user.email &quot;邮箱&quot; 生成key 12ssh-keygen -t rsa// 按三次回车默认即可 把/home/username/.ssh下的id_rsa.pub中的内容复制进Github即可 安装nodejs以及npm12sudo apt-get install nodejssudo apt-get install npm]]></content>
