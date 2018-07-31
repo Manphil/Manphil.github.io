@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[C++和Java中static的异同]]></title>
+    <url>%2F2018%2F07%2F31%2FC%2B%2B%E5%92%8CJava%E4%B8%ADstatic%E7%9A%84%E5%BC%82%E5%90%8C%2F</url>
+    <content type="text"><![CDATA[本文主要比较C++和Java的static在类中的异同 相同点 静态数据成员：类的所有对象都共享静态数据成员 静态方法：两者的静态方法都有以下限制 123方法中仅能访问静态方法方法中仅能访问静态成员方法中不能使用this以及super 都能直接用类名访问静态成员，但是写法稍有不同 123C++: 类名::成员名（数据成员或方法）Java: 类名.成员名 不同点 Java支持静态代码块, 用于支持类的初始化, 静态代码块中的代码仅在第一次新建对象时或第一次访问类的静态成员时才执行, 且仅执行一次, C++不支持以上特性 C++支持静态局部变量（即方法中的静态局部变量）, 而Java不支持, eg. 123456789class Test &#123; public static void main(String args[]) &#123; System.out.println(fun()); &#125; static int fun() &#123; static int x= 10; //Compiler Error: Static local variables are not allowed return x--; &#125;&#125; 参考Comparison of static keyword in C++ and Java]]></content>
+      <categories>
+        <category>C++杂谈</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>Java</tag>
+        <tag>static</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[使用Intellij编译Spark源码]]></title>
     <url>%2F2018%2F04%2F01%2F%E4%BD%BF%E7%94%A8Intellij%E7%BC%96%E8%AF%91Spark%E6%BA%90%E7%A0%81%2F</url>
     <content type="text"><![CDATA[记录一下Intellij编译Spark的过程 使用Git从Github clone Spark源码 1git clone https://github.com/apache/spark.git 把Spark导入到Intellij中 File -&gt; New -&gt; Projects From Existing Sources -&gt; 选择clone的spark -&gt; Maven Project -&gt;…(接下来的操作使用默认即可) Building Spark 使用Intellij自带的maven进行编译： View -&gt; Tool Windows -&gt; Maven Projects 在打开的Maven面板中点击Execute Maven Goal小按钮，输入以下其中一个命令之一即可： 12345671、mvn clean package -Dmaven.test.skip=true2、mvn clean install -Dmaven.test.skip=true（发布到maven本地仓库中）3、mvn -DskipTests clean package4、mvn -DskipTests clean install (发布到maven本地仓库中) 可能是因为墙的原因，使用官方的 ./build/mvn -DskipTests clean package 命令一直都显示已连接，然后就没了==，不过使用sbt可以编译成功，在终端输入 ./build/sbt package 即可（需要梯子） 其他更多的编译命令可参考Spark官方文档Building Spark - Spark 2.3.0 Documentation 参考： https://spark.apache.org/docs/latest/building-spark.html https://blog.csdn.net/high2011/article/details/76651290]]></content>
@@ -96,10 +109,10 @@
       </categories>
       <tags>
         <tag>Java</tag>
-        <tag>SSM</tag>
         <tag>SpringMVC</tag>
         <tag>Spring</tag>
         <tag>Mybatis</tag>
+        <tag>SSM</tag>
       </tags>
   </entry>
   <entry>
